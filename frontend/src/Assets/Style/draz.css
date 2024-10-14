@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
+	list-style: none;
+}
+
+.nav-bar{
+    background-color: #f85606;
+    height: 120px;
+    
+}
+
+.main-menu{
+    display: flex;
+    margin-left: 40%;
+}
+
+.main-menu li{
+    padding: 5px 5px 10px 30px;
+}
+
+.main-menu a{
+text-decoration: none;
+font-size: 12px;
+color: aliceblue;
+}
+
+/* logo */
+.brand-name img{
+margin-top: -6px;
+margin-left: 55px;
+}
+
+.main-nav{
+    display: flex;
+    margin-left: 3%;
+}
+
+.topnav{
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+form{
+    background: white;
+    height: 45px;
+    width: 600px;
+    padding-left: 20px;
+    border: 0px;
+    display: flex;
+}
+
+form input{
+    border: none;
+    outline: none;
+    flex: 1; 
+}
+
+form button{
+    background-color: #f8b898;
+    padding: 10px 20px;
+    border: none;
+}
+.fa-search
+{
+    color: #f85606;
+}
+
+.main-nav .fa-cart-shopping{
+    font-size: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+
+.main-slider{
+    display: flex;
+}
+
+
+.slider-box {
+    width: 75%;
+    height: 65vh;
+    margin-left: 5%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #slider {
+    display: flex;
+    width: 100%; /* Ensures all four images fit in one row */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  #slider img {
+    width: 100%; 
+    object-fit: cover;
+
+  }
+  
+  .indicators {
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+  }
+  
+  .indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(230, 213, 213, 0.5);
+    cursor: pointer;
+    margin: 0 5px;
+    
+  }
+
+  /* .indicators span.active {
+    background-color: rgb(130, 77, 77);
+  } */
+  
+
+.active{
+background: white !important;
+}
+
+.trydraz{
+    margin-left: 10px;
+}
+.trydraz img{
+    height: 335px;
+}
+
+/* For sale  */
+.text-sale{
+    margin-left: 60px;
+}
+
+.flashsale{
+    width: 92%;
+    height: 375px;
+    background-color: 
+    rgb(243, 243, 243);
+    margin-left: 60px;
+    position: relative;
+    
+}
+.main-sales{
+    display: flex;
+}
+
+.on-sale-now{
+    color: #f85606;
+    padding: 2%;
+}
+
+.flashsale hr{
+    color: #6d6d6d;
+    margin-top: -15px;
+    border: 1px solid ;
+}
+
+.flashsale button{
+
+  border: 1.5px solid #f85606;
+  color: #f85606;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  margin-left: 70%;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+.footer{
+    border: 2px solid red;
+    margin-top: 5%;
+}
+.container1{
+margin-right: 18px;
+/* border: 2px solid red; */
+display: flex;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    width: 98%;
+
+    margin: 10px auto;
+}
+.col-lg-2{
+    /* border: 2px solid blue; */
+    margin-right: 4%;
+
+}
+
+.card:hover{
+    box-shadow: 0px 3px 5px;
+}
+
+.card img{
+    width: 178px;
+    height: 162px;
+    /* object-fit: cover; */
+}
+
+.card-content p{
+padding-left: 10px;
+}
+.card-content{
+    background-color: white;
+}
+
+.card-content h5{
+    padding-left: 10px;
+    color: #f85606;
+}
+
+.text-cetagories{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.main-cetagories{
+
+    /* border: 2px solid red; */
+    width: 92%;
+    height: auto;
+    background-color: 
+    rgb(243, 243, 243);
+    margin-left: 60px;
+    position: relative;
+}
+
+.sub-cetagories{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+
+    
+}
+
+.card1{
+    border: 1px solid rgb(215, 215, 215);
+    width: 150px;
+    height: 150px;
+    background-color:  rgb(255, 255, 255);
+    transition: all 300ms ease-in-out;
+}
+.card1:hover{
+box-shadow: 2px 5px 10px;;
+}
+.card1 img{
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.card1 p{
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.sub-cetagories2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Just for you */
+.text-sale1{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.just-for-you{
+    width: 92%;
+    height: 270px;
+    background-color: rgb(224, 224, 224);
+    margin-left: 60px;
+    position: relative;
+}
+
+/* .loadmore{
+  border: 1.5px solid #f85606;
+  color: #f85606;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  margin-left: 70%;
+  margin-top: 10px;
+  border-radius: 2px;
+} */
+
+.loadmore{
+    margin-left: 42%;
+    margin-top: 5%;
+    color: #f85606;
+    border: 2px solid #f85606;
+    padding: 15px 90px;
+    background-color: white;
+}
+
+/* Footer */
+
+.main-footer{
+    display: flex;
+    border: 2px solid red;
+}
+.customer-care{
+    border: 2px solid red;
+    margin: 3% ;
+    color: rgb(78, 78, 145);
+    margin-left: 60px;
+    
+}
+.sub-part{
+    font-size: 15px;
+}
+.sub-part p{
+    line-height: 2;
+}
+
+.draz{
+    color: rgb(78, 78, 145);  
+    margin: 3%;
+    margin-left: 7%;
+
+}
+
+.logo-2{
+    margin: 3%; 
+    margin-left: 7%;
+    display: flex;
+
+}
+
+.logo-draz img{
+    width: 50px;
+    height: 50px;
+}
+
+.content-1{
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+.content-1 h5{
+    color:#f85606
+}
+
+.app-img{
+    margin: 2%; 
+    display: flex;
+}
+
+.google img{
+    height: 100px;
+    width: 160px;
+}
+
+.google2{
+    margin-top: 6%;
+}
+
+.google2 img{
+    height: 30px;
+    width: 100px;
+}

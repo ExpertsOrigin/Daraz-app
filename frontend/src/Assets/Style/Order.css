@@ -1,0 +1,103 @@
+.main-order{
+    /* border: 2px solid red; */
+    display: flex;
+    /* height: 80vh; */
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 1% auto;
+}
+.main-order-1{
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 30%;
+    padding-top: 1.4%;
+    padding-left: 1%;
+    margin-bottom: 1%;
+}
+.order-box-1{
+    
+    width: 65%;
+    margin-right: 1%;
+}
+.order-box-2{
+    width: 32%;
+}
+.order-p-1{
+    font-size: 0.8rem;
+}
+
+.buy-button{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+
+.fa-receipt, .fa-ticket{
+    color: orange;
+}
+.ordering-1{
+    padding-top: 1.4%;
+    padding-left: 1%;
+    line-height: 0.7;
+}
+.international-delivery{
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 30%;
+    padding: 0.3% 0% 0.2% 1%;
+    height: 30%;
+    margin-bottom: 1%;
+
+}
+
+.voucher{
+/* border: 2px solid red; */
+width: 65%;
+padding-top: 1%;
+}
+.international span{
+    /* border: 2px solid red; */
+    float: right;
+}
+
+.price-span{
+    float: right;
+    margin-right: 3%;
+}
+.vat{
+    float: right;
+    margin-right: 3%;
+}
+
+.order-btn{
+    width: 80%;
+    margin: 0px auto;
+    background-color: #F85606;
+    color: white;
+    padding: 1.5%;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+.first-order-div{
+    height: 20vh;
+}
+.second-div{
+    /* border: 2px solid red; */
+    margin-top: -255px;
+}
+.fi-rr-angle-small-right{
+    /* border: 2px solid red; */
+    height: 0.5vh;
+    font-size: 1.3rem;
+}
+
+.linkto-1{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}

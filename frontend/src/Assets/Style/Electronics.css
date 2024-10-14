@@ -1,0 +1,65 @@
+.product-card {
+    /* border: 2px solid red; */
+
+    width: 82%;
+
+    margin: 3% auto;
+    display: flex;
+
+}
+
+.carding-card{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 20vh;
+}
+/* .img-height{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+} */
+
+.card-text {
+    color: #F85606;
+}
+
+.card-p {
+    opacity: 0.6;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.side-menu{
+    /* border: 2px solid red; */
+    width: 17%;
+    padding-left: 8px;
+}
+
+.pro-item-cards{
+    /* border: 2px solid red; */
+    width: 83%;
+
+}
+
+.card {
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 18%;
+    background-color: rgb(218, 210, 192);
+    margin: 10px;
+    /* height: 60vh;
+     */
+
+
+}
+
+
+
+.filter-btn{
+border-color: lightgray;
+border-radius: 5px;
+margin-bottom: 5%;
+height: 5vh;
+}

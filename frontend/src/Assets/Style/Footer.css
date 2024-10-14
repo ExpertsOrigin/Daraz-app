@@ -1,0 +1,16 @@
+.footer{
+    /* border: 2px solid red; */
+    padding-top: 2%;
+    display: flex;
+    margin: 0px auto;
+    width: 80%;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.main-footer{
+    /* border: 2px solid red; */
+    background-color: #F5F5F5;
+}
+.care{
+    color: #F65507;
+}

@@ -1,0 +1,62 @@
+.daraz-logo{
+    /* border: 2px solid red; */
+    background-color: transparent;    
+    width: 70%;
+}
+.nav-color{
+    /* border: 2px solid red; */
+    background-color: transparent;
+    margin: 0px auto;
+    height: 11vh;
+}
+.navigation-bar{
+    background-color: #F85606;
+}
+.bg-body-tertiary{
+/* background-color: orange; */
+background-color: transparent !important;
+width: 80%;
+}
+#basic-navbar-nav{
+    background-color: #F85606;
+}
+.container{
+    background-color: transparent;
+}
+.navbar-brand{
+    background-color: transparent;
+}
+.logo-link{
+    background-color: transparent;
+}
+.login-search{
+    /* border: 2px solid red; */
+    background-color: #F85606;
+    width: 100%;
+    display: flex;
+}
+.me-auto{
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: #F85606;
+}
+
+.search-input{
+    width: 70%;
+    height: 5.5vh;
+    border-radius: 3px;
+    margin-top: 1%;
+}
+.signup-form{
+    /* border: 2px solid red; */
+    width: 20%;
+    background-color: transparent;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+.sign-links{
+    /* margin-left: 2%; */
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}

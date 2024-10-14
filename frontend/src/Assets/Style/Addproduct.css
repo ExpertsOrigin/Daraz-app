@@ -1,0 +1,25 @@
+.addproduct{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 6% auto;
+    
+}
+
+.addbtn{
+    width: 20%;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    height: 5vh;
+    margin: 0px auto;
+}
+.inputs{
+    width: 70%;
+    margin: 0px auto;
+    line-height: 2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+}

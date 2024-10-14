@@ -1,0 +1,42 @@
+*{
+    background-color: #F5F5F5;
+}
+.first-section{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 77%;
+    margin: 20px auto;
+}
+.catagories{
+    /* border: 2px solid red; */
+    width: 76%;
+    margin: 3% auto;
+    
+    
+}
+.cata{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1.5% 0 1.5% 0 ;
+    
+    background-color: white;
+
+}
+.cata-img{
+    width: 100%;
+    /* border: 2px solid gray; */
+
+    border-radius: 20px;   
+}
+.slider{
+    width: 100%;
+}
+
+.outerproduct{
+    /* border: 2px solid red; */
+    width: 11%;
+    padding: 1%;
+    background-color: transparent;
+}

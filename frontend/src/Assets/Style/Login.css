@@ -1,0 +1,61 @@
+.login-section{
+    border: 2px solid red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    width: 48%;
+    margin: 3% auto;
+    display: flex;
+}
+.login-div{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+}
+.loginbtn{
+    width: 70%;
+margin-left: 3%;
+margin-top: 2%;
+}
+.login-input{
+    width: 90%;
+    height: 5vh;
+    margin-bottom: 3%;
+    
+}
+
+.reset-password{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-decoration: none;
+}
+.or-login{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-left: 3%;
+
+}
+.welcome-daraz{
+    /* border: 2px solid red; */
+    margin: 2% auto;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+
+.new-member{
+    /* border: 2px solid red; */
+    float: right;
+    font-size: 0.8rem;
+    margin-top: 1%;
+}
+
+.login-email{
+    /* border: 2px solid black; */
+    background-color: transparent;
+    color: white;
+    margin-top: 1.30%;
+    float: right;
+}
